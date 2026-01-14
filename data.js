@@ -11,12 +11,14 @@
 //////////////////////////////////////////////////////////////////////
 // Step 1 - Object Creation //////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-const animal = {};
+var animal = {};
 // create species using dot notation
-animal.species = 'dog';
-// bracket
-animal['name'] = 'Pal';
+animal.species = 'duck';
+// bracket notation
+animal['name'] = 'Jennifer';
+// give it a value of empty array
 animal.noises = [];
+// print to the console
 console.log(animal);
 
 
@@ -26,13 +28,32 @@ console.log(animal);
 //////////////////////////////////////////////////////////////////////
 // Step 2 - Array Creation ///////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
+var noises = [];
+// give noises index using sound my duck makes
+noises[0] = 'squeak';
+// more noises using push
+noises.push('growl');
+// add another w/ unshift
+noises.unshift('chirp');
+// use bracket notation
+noises[noises.length] = 'squaddle';
+// logging length of noises '4'
+console.log(noises.length);
+// print last noise 'squaddle'
+console.log(noises[noises.length - 1]);
+// print whole array
+console.log(noises);
 
 
 //////////////////////////////////////////////////////////////////////
 // Step 3 - Combining Step 1 and 2 ///////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
+// bracket animal assigned to noises property
+animal['noises'] = noises;
+// insert another noise using dot notation & push it
+animal.noises.push('Weah');
+// print to console
+console.log(animal);
 
 
 /* *******************************************************************
@@ -57,13 +78,35 @@ console.log(animal);
 //////////////////////////////////////////////////////////////////////
 // Step 6 - A Collection of Animals //////////////////////////////////
 //////////////////////////////////////////////////////////////////////
+//create var named animals
+var animals = [];
+// push animals obj to animal array
+animals.push(animal);
+// push duck
+// print array to console
+console.log(animals);
+// create var and assign it to data
+var duck = { species: 'duck', name: 'Jerome', noises: ['quack', 'honk', 'sneeze', 'woosh']};
+// push 
+animals.push(duck);
+// print to console
+console.log(animals);
+// add another animal
+var dog = { species: 'dog', name: 'Jerryian', noises: ['bark', 'ruff', 'woof']};
+// push stat
+animals.push(dog);
+// new animal
+var chicken = { species: 'chicken', name: 'Jerry', noises: ['yodle', 'squeak', 'pluck']};
+// push statment
+animals.push(chicken);
 
 
 
 //////////////////////////////////////////////////////////////////////
 // Step 7 - Making Friends ///////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
+// create empty array
+var friends = [];
 
 
 /**
