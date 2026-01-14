@@ -107,7 +107,22 @@ animals.push(chicken);
 //////////////////////////////////////////////////////////////////////
 // create empty array
 var friends = [];
-
+// function gerRandom
+function getRandom(arr) {
+  //return statemnt using math.random
+return Math.floor(Math.randon() * arr.length);
+}
+// create arrray/object for existing values
+var animals = [{name: 'Duck'}, {name: 'Dog'}, {name: 'Chicken'}];
+// var
+var randomIndex = getRandom(animals);
+var randomAnimalName = animals [randomIndex].name;
+//push meth
+friends.push(randomAnimalName);
+//print to console
+console.log(friends) // prints ['Dog']
+// bracket notation arrray
+animals[0]['friends'] = friends;
 
 /**
  * Nice work! You're done Part 1. Pat yourself on the back and
