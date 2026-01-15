@@ -99,7 +99,17 @@ animals.push(dog);
 var chicken = { species: 'chicken', name: 'Jerry', noises: ['yodle', 'squeak', 'pluck']};
 // push statment
 animals.push(chicken);
-
+// new animal
+var fly = { species: 'fly', name: 'Jerri', noises: ['buzz', 'bee', 'bzz']};
+// push stat
+animals.push(fly);
+// new animal
+var wolf = { species: 'wolf', name: 'Bob', noises: ['howl', 'oww', 'grr']};
+// push stat
+animals.push(wolf);
+// print to console
+console.log(animals);
+console.log(animals.length);
 
 
 //////////////////////////////////////////////////////////////////////
@@ -123,6 +133,8 @@ friends.push(randomAnimalName);
 console.log(friends) // prints ['Dog']
 // bracket notation arrray
 animals[0]['friends'] = friends;
+
+
 
 /**
  * Nice work! You're done Part 1. Pat yourself on the back and
