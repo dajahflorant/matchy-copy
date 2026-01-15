@@ -99,14 +99,7 @@ animals.push(dog);
 var chicken = { species: 'chicken', name: 'Jerry', noises: ['yodle', 'squeak', 'pluck']};
 // push statment
 animals.push(chicken);
-// new animal
-var fly = { species: 'fly', name: 'Jerri', noises: ['buzz', 'bee', 'bzz']};
-// push stat
-animals.push(fly);
-// new animal
-var wolf = { species: 'wolf', name: 'Bob', noises: ['howl', 'oww', 'grr']};
-// push stat
-animals.push(wolf);
+
 // print to console
 console.log(animals);
 console.log(animals.length);
@@ -122,8 +115,6 @@ function getRandom(arr) {
   //return statemnt using math.random
 return Math.floor(Math.randon() * arr.length);
 }
-// create arrray/object for existing values
-var animals = [{name: 'Duck'}, {name: 'Dog'}, {name: 'Chicken'}];
 // var
 var randomIndex = getRandom(animals);
 var randomAnimalName = animals [randomIndex].name;
