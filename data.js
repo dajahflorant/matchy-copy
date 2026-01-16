@@ -113,7 +113,7 @@ var friends = [];
 // function gerRandom
 function getRandom(arr) {
   //return statemnt using math.random
-return Math.floor(Math.randon() * arr.length);
+return Math.floor(Math.random() * arr.length);
 }
 // var
 var randomIndex = getRandom(animals);
