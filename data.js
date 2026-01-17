@@ -60,9 +60,10 @@ console.log(animal);
  * Step 4 - Review
  *
  * 1. What are the different ways you can access properties on objects?
+ * // you can acces it by using dot notation ex: user.dajah or bracket notation ex: object ['dajah']
  *
  * 2. What are the different ways of accessing elements on arrays?
- *
+ * // ue can access elements on arrays by using bracket notation to get to the exact index.
  * *******************************************************************
  */
 

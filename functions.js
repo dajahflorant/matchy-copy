@@ -9,7 +9,8 @@
  * and read every instruction carefully.
  */
 
-const { animal } = require("./data");
+
+//const { animal } = require("./data");
 
 //////////////////////////////////////////////////////////////////////
 // Step 1 - Search ///////////////////////////////////////////////////
@@ -54,7 +55,7 @@ if (animals[i].name === name) {
 //////////////////////////////////////////////////////////////////////
 // declare function remove with 2 params
 
-function remove(animals, name {
+function remove(animals, name) {
     // for loop to remove animal from array
 for (let i = animals.length - 1; i >= 0; i--) {
     // if statement
@@ -74,6 +75,30 @@ return animals;
 //////////////////////////////////////////////////////////////////////
 // Step 4 - Add ///////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
+// declare function named add with 2 params
+function add (animals, animal) {
+
+//create loop
+for (let i = 0; i < animals.length; i++) {
+    // create if statement
+    if (animals[i].name === animal.name) {
+
+//if ( !animal.name === animal.name.length === 0 )
+// return statement
+return false;
+}
+}
+// push method
+animals.push(animal);
+// return true
+return true;
+//if (!animal.species ||  animal.species.length === 0) {
+    //return false;
+}
+
+
+
+
 
 
 
